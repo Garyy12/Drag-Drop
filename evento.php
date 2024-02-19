@@ -1,5 +1,5 @@
 <?php
-include 'php/conexion.php';
+include 'conexion.php';
 	
 	//$password=password_hash($_POST['password'],PASSWORD_DEFAULT);
 	
@@ -36,7 +36,7 @@ include 'php/conexion.php';
     <title>Blog</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -45,7 +45,7 @@ include 'php/conexion.php';
 
 
 <body>
-<?php include './php/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <br>  <br>  <br>  <br>  <br>
     <div class="centrar-texto">

@@ -1,5 +1,5 @@
 <?php
-include 'php/conexion.php'; // Incluir el archivo de conexión a la base de datos
+include 'conexion.php'; // Incluir el archivo de conexión a la base de datos
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

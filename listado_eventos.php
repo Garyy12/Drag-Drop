@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="img/minifav.png">
-  <link rel="stylesheet" href="css/siteText.css">
-<script type="text/javascript" src="./js/jquery.richtext.js"></script>
+  <link rel="stylesheet" href="siteText.css">
+<script type="text/javascript" src="jquery.richtext.js"></script>
   <title>Lista de Eventos</title>
-  <link rel="stylesheet" type= "text/css" href ="css/evento.css">
+  <link rel="stylesheet" type= "text/css" href ="evento.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
@@ -54,7 +54,7 @@
         <th></th>
     </tr>
     <?php
-    include 'php/conexion.php'; // Incluir el archivo de conexión a la base de datos
+    include 'conexion.php'; // Incluir el archivo de conexión a la base de datos
 
     // Configuración de paginación
     $resultados_por_pagina = 10; // Número de resultados por página

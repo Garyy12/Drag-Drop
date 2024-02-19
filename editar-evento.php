@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="img/minifav.png">
     <title>Editar proyecto</title>
-    <link rel="stylesheet" href="css/stylesss.css">
-    <link rel="stylesheet" type= "text/css" href ="css/evento.css">
+    <link rel="stylesheet" href="stylesss.css">
+    <link rel="stylesheet" type= "text/css" href ="evento.css">
     <!-- Estilos de la página -->
-    <link rel="stylesheet" href="css/siteText.css">
-    <link rel="stylesheet" href="css/richtext.min.css">
+    <link rel="stylesheet" href="siteText.css">
+    <link rel="stylesheet" href="richtext.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/jquery.richtext.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -31,7 +31,7 @@
 </header>
 
   <?php
-    include 'php/conexion.php'; // Incluir el archivo de conexión a la base de datos
+    include 'conexion.php'; // Incluir el archivo de conexión a la base de datos
 
     if (isset($_GET['id'])) {
         $id = $_GET['id'];

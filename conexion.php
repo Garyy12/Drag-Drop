@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $clave = "";
-$bd  = "indo";
+$bd  = "seo";
 
 $conectar = mysqli_connect($host,$user,$clave,$bd);
 
