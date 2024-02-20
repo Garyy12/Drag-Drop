@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="siteText.css">
     <link rel="stylesheet" href="richtext.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.richtext.js"></script>
+    <script type="text/javascript" src="jquery.richtext.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <!-- Agrega el enlace a Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -20,10 +20,8 @@
 </head>
 <header class="headers">
     <div class="logo-container">
-      <img src="img/Logo-comunidad1.png"  alt="Logo" class="logo">
     </div>
     <div class="header-content">
-      <p>Pueblos y comunidades indígenas</p>
       </div>
       <div class="button-container">
       <a href="listado_eventos.php" class="button">Lista de Eventos</a>
@@ -193,11 +191,7 @@
 
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="#">Quiénes somos</a>
-                <a href="#">Contacto</a>
-            </nav>
-            <p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
+            
         </div>
     </footer>
 </body>

@@ -14,10 +14,10 @@
 <body>
 <header class="headers">
     <div class="logo-container">
-      <img src="img/Logo-comunidad1.png"  alt="Logo" class="logo">
+      
     </div>
     <div class="header-content">
-      <p>Pueblos y comunidades indígenas</p>
+      
       </div>
       <div class="button-container">
         <a href="admin/index.php" class="button">Incio Panel</a>
@@ -31,7 +31,7 @@
 </div>
 
 <!-- Paginación kev-->
- <link rel="stylesheet" href="css/evento.css">
+ <link rel="stylesheet" href="evento.css">
 <input type="text" id="busqueda" onkeyup="buscar(event)" placeholder="Buscar por título...">
 
 

@@ -72,11 +72,7 @@ include 'conexion.php';
     <br></br><br></br>
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="#">Quiénes somos</a>
-                <a href="contacto.php">Contacto</a>
-            </nav>
-            <p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
+        
         </div>
     </footer>
 </body>
